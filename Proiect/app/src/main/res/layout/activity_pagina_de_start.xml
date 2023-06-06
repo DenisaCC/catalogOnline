@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaginaDeStart">
+
+
+  <LinearLayout
+      android:id="@+id/linearLayout"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginVertical="200dp"
+      android:layout_marginTop="232dp"
+      android:layout_marginEnd="50dp"
+      android:baselineAligned="false"
+      android:orientation="vertical"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <Button
+        android:id="@+id/Note"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_marginVertical="65dp"
+        android:backgroundTint="#66CCFF"
+        android:textColor="@color/black"
+        android:text="Note"
+        tools:ignore="InvalidId">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Noutati"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_marginVertical="65dp"
+        android:backgroundTint="#66CCFF"
+        android:textColor="@color/black"
+        android:text="Noutati">
+
+    </Button>
+  </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/linearLayout2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginVertical="200dp"
+      android:layout_marginStart="50dp"
+      android:layout_marginTop="232dp"
+      android:baselineAligned="false"
+      android:orientation="vertical"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <Button
+        android:id="@+id/Orar"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_marginVertical="65dp"
+        android:backgroundTint="#66CCFF"
+        android:textColor="@color/black"
+        android:text="Orar">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Teze"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_marginVertical="65dp"
+        android:backgroundTint="#66CCFF"
+        android:textColor="@color/black"
+        android:text="Teze">
+
+    </Button>
+  </LinearLayout>
+
+  <FrameLayout
+      android:id="@+id/frameLayout"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <ImageView
+        android:layout_width="427dp"
+        android:layout_height="248dp"
+        app:srcCompat="@drawable/mesota" />
+  </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
